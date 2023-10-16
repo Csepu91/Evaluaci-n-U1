@@ -1,0 +1,119 @@
+/* 
+    Created on : 14-10-2023, 22:29:56
+    Author     : crist
+*/
+
+body{
+    background-color: #EAFAF1;
+
+}
+
+header{
+    background-color: lightseagreen;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 700px;
+    border-radius: 4px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: trebuchet ms;
+    text-shadow:
+        2px 2px 2px #148F77,
+        -2px -2px 2px #148F77,
+        -2px 2px 2px #148F77,
+        2px -2px 2px #148F77;
+    box-shadow: 0 2px 6px gray;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 600px;
+    padding:40px;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    box-shadow: 0 2px 6px gray;
+    text-align: center;
+    font-family: trebuchet ms;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: 0 2px 6px gray;
+    width: 175px;
+    height: 175px;
+}
+
+h2{
+    color: #138D75;
+    font-weight: bold;
+    font-size:25px;
+}
+p{
+    color:#4D5656;
+
+}
+
+h3{
+    color: #148F77;
+    font-weight: bold;
+}
+
+ul{
+    background-position: 0 0;
+    padding-left: 25%;
+    text-align: left;
+
+}
+
+li {
+    /*    list-style: none;*/
+    color: #4D5656;
+    padding-left: 0;
+
+}
+
+.footp{
+    background-color: lightseagreen;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 700px;
+    height:30px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    color: whitesmoke;
+    font-family: trebuchet ms;
+    text-shadow:
+        1px 1px 1px #138D75,
+        -1px -1px 1px #138D75,
+        -1px 1px 1px #138D75,
+        1px -1px 1px #138D75;
+    box-shadow: 0 2px 6px gray;
+}
+
+/*a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}*/
+
+a:hover {
+    border-bottom: 1px solid;
+    /*  background: #cdfeaa;*/
+    color: lightseagreen;
+}
+
+/*a:active {
+  background: #265301;
+  color: #cdfeaa;
+}*/
+
+/*a:link {
+  color: #265301;
+}
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}*/
